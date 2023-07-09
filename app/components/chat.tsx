@@ -424,7 +424,7 @@ export function ChatActions(props: {
                 <BreakIcon/>
             </div>
 
-            <div
+            {/* <div
                 className={`${chatStyle["chat-input-action"]} clickable`}
                 onClick={selectImage}
             >
@@ -436,7 +436,7 @@ export function ChatActions(props: {
                     onChange={onImageSelected}
                 />
                 <UploadIcon/>
-            </div>
+            </div> */}
         </div>
     );
 }
