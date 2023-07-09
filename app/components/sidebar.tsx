@@ -20,7 +20,7 @@ import {
   MIN_SIDEBAR_WIDTH,
   NARROW_SIDEBAR_WIDTH,
   Path,
-  REPO_URL,
+  HOME_URL,
 } from "../constant";
 
 import { Link, useNavigate } from "react-router-dom";
@@ -174,7 +174,7 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            <a href={REPO_URL} target="_blank">
+            <a href={HOME_URL} target="_blank">
               <IconButton icon={<GithubIcon />} shadow />
             </a>
           </div>
